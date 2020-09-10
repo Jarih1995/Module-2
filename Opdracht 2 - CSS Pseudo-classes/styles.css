@@ -1,0 +1,67 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+a{
+    color: #333333;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+nav ul{
+    display: flex;
+    width: auto;
+    justify-content: flex-start;
+    background-color: royalblue;
+    list-style-type: none;
+    margin-left: -40px;
+
+}
+
+nav li{
+    width: 100px;
+    align-self: center;
+    padding: 10px;
+}
+
+nav li:first-child{
+    padding-left: 0;
+}
+
+.currentPage{
+    background-color: #26252d;
+}
+
+.topNav li:hover{
+    background-color: lightblue;
+}
+
+nav input:focus{
+    border: 10px red solid;
+}
+
+a.eersteLink:hover {
+    color: green;
+    font-weight: bold; 
+}
+
+a.tweedeLink:active {
+    color: red;
+    font-style: italic;
+}
+
+a.derdeLink:visited {
+    color: yellow;
+}
+
+.deel1 input{
+    width: 300px;
+    color: rgb(0,0,0, 0.4);
+
+}
+.deel1 > input:focus{
+    font-size: 20px;
+    color: green;
+}
