@@ -1,0 +1,10 @@
+$padding: 20px;
+$text-color: #0b0808;
+$background-color: #000;
+
+@mixin flexcenter {
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.5em;
+    padding: $padding;
+}
